@@ -8,13 +8,13 @@ const userSchema = new mongoose.Schema(
       unique: true,
     },
     fullName: {
-      type: String, // ✅ fixed typo here
+      type: String,
       required: true,
     },
     password: {
       type: String,
       required: true,
-      minlength: 6, // ✅ fixed typo here
+      minlength: 6,
     },
     profilePic: {
       type: String,
